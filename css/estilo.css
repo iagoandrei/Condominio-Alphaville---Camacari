@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: 'rainbows';
+  src:url(../fontes/rainbows.otf);
+}
+@font-face{
+  font-family: 'umba';
+  src: url(../fontes/umba.otf);
+}
+@font-face{
+  font-family: 'neoteric';
+  src: url(../fontes/neoteric.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.cabecalho{
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'rainbows';
+  font-size: 50px;
+}
+#start{
+  background-image: url('../fotos/back.png');
+  background-size: cover; 
+}
+#titulo{
+  text-align: center;
+  color: white;
+  top: 50%;
+  position: relative;
+}
+#slogan{
+  font-family: 'umba';
+  text-align: center;
+  position: relative;
+  color: #6bc3f9;
+  font-size: 40px;
+  margin-bottom: 50px
+}
+#botoes{
+  position: absolute;
+  right:10px;
+  top: 0;
+}
+#botoes button{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+.cabecalho img{
+  position: absolute;
+  top: 15%;
+  padding: 15px;
+  left: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #3a3a3a;
+}
+
+div p{
+  position: relative;
+}
+
+#copy{
+  font-family: 'umba';
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

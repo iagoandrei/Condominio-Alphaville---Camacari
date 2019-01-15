@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* TELA DE LOGIN */
+
+@font-face{
+	font-family: 'neoteric';
+	src: url(../fontes/neoteric.ttf);
+}
+@font-face{
+	font-family: 'revilo';
+	src: url(../fontes/revilo.ttf);
+}
+
+*{margin: 0;padding: 0;}
+
+body{
+	background-image: url('../fotos/wallpaper.jpeg');
+	background-size: cover;
+}
+
+#img_logo{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%,-340%);
+	z-index: 1;
+}
+.logar{
+	width: 400px;
+	height: 350px;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 20px 3px rgba(0,0,0,.2);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.logar input, button#bt{
+	position: relative;
+	margin-top: 20px;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%,-50%);
+	width: 280px;
+	height: 45px;	
+	cursor: pointer;
+}
+#bt_cad, #bt_pass{
+	position: relative;
+	left: 50%;
+	cursor: pointer;
+	top: 10%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	height: 59px;
+	color: blue;
+	background-color: #e5e5e5;
+	border: 1px solid rgba(0,0,0,.2);
+}
+.logar a{text-decoration: none;}
+#bt a{
+	text-decoration: none;
+	color: white;
+}
+#alert{
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-family: 'neoteric';
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	background-color: rgba(0,0,0,.4);
+	padding: 10px;
+	border-radius: 20px;
+}
+.logar p{
+	position: relative;
+	font-size: 16px;
+	font-family: 'neoteric';
+	margin-top: 20px;
+	left: 17%;
+	top: -10%;
+	color: rgba(0,0,0,.6);
+}
+.logar a{color: blue;}
+
+.logar input{
+	font-family: 'revilo';
+	background-color: #f2f2f2;
+	border: none;
+	padding-left: 12px;
+}
+.logar button{
+	background-color: #244f96;
+	color: white;
+	font-family: 'neoteric';
+	font-size: 17px;
+	border: none;
+}
+.logar input::placeholder{font-family:'neoteric';font-size: 17px}
+
+.fg{
+	background-color: #fff;
+}
+
+
+
+

@@ -1,0 +1,69 @@
+<select id="idRelatorio" name="idRelatorio" class="form-control">
+                    <option value="" selected>Selecione...</option>
+                    
+                            <option value="1">Reservas de ambiente </option>
+                        
+                            <option value="2">Dados de Acesso</option>
+                        
+                            <option value="3">Quantidade de Chamados por Perfil</option>
+                        
+                            <option value="4">Moradores</option>
+                        
+                            <option value="5">Endereço Condomínio</option>
+                        
+                            <option value="6">Primeiro Acesso por unidade</option>
+                        
+                            <option value="7">#Cadastro e Data Primeiro Acesso por unidade</option>
+                        
+                            <option value="8">Corpo Diretivo</option>
+                        
+                            <option value="9">Visitantes das Reservas (Convidados)</option>
+                        
+                            <option value="10">Veículos Cadastrados</option>
+                        
+                            <option value="11">Parceiro - Acessos Privilegiados</option>
+                        
+                            <option value="12">Visitantes</option>
+                        
+                            <option value="13">Visitantes - Eventos de Entrada / Saída</option>
+                        
+                            <option value="15">Atividades (CheckList) Executadas - Todas</option>
+                        
+                            <option value="16">Parceiro - Grupos de Acesso</option>
+                        
+                            <option value="17">Auditoria - Aprovações Agenda de Reservas</option>
+                        
+                            <option value="18">Estatistica - Acesso às paginas</option>
+                        
+                            <option value="20">Reservas de Ambiente - Condomínio Atual</option>
+                        
+                            <option value="21">Sindicância - Ticket de Eventos</option>
+                        
+                            <option value="22">Enquete - Consolidado</option>
+                        
+                            <option value="23">Enquete - Analítico</option>
+                        
+                            <option value="24">Chamados - Analítico</option>
+                        
+                            <option value="25">Resposta Questionários Protocolo - Analítico</option>
+                        
+                            <option value="26">Funcionarios</option>
+                        
+                            <option value="27">PETS</option>
+                        
+                            <option value="28">Visitante - Quantidade de entradas por                 
+                            <option value="29">Reservas - Pagamento pelo Myshopping</option>
+                        
+                            <option value="30">Convidados Evento</option>
+                        
+                            <option value="31">Controle Acesso - Dispositivos</option>
+                        
+                            <option value="101">Encomendas Pendentes - Portaria integrada</option>
+                        
+                            <option value="102">Encomendas Retiradas - Portaria integrada</option>
+                        
+                            <option value="103">Controle Inventário - Portaria integrada</option>
+                        
+                            <option value="104">Controle Acesso - Usuários nos equipamentos</option>
+                        
+                </select>

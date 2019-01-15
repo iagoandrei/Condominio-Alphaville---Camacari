@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{margin:0;padding: 0;}
+
+@font-face{
+	font-family: 'space';
+	src: url(../fontes/space.ttf);
+}
+@font-face{
+  font-family: 'umba';
+  src: url(../fontes/umba.otf);
+}
+@font-face{
+  font-family: 'neoteric';
+  src: url(../fontes/neoteric.ttf);
+}
+
+body{
+	background-color: #e2e2e2;
+}
+#cabecalho{
+	position: relative;
+	width: 100%;
+	background-color: #333;
+	height: 60px;
+	margin-bottom: 50px;
+}
+#cabecalho img{
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+#arrow{font-size: 40px;margin-top: 10px;margin-left: 8px}
+
+.cad_morador{
+	position: relative;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 6px 3px rgba(0,0,0,.3);
+	margin:0 auto;
+	padding: 10px;
+	width: 800px;
+	height: 550px;
+}
+.cad_morador p{
+	font-family: 'neoteric';
+	font-size: 25px;
+}
+.cad_morador #dados input{
+	width: 250px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	border: none;
+	outline: none;
+	background-color: #e2e2e2;
+	padding-left: 15px;
+	margin-right: 30px;
+	height: 30px;
+}
+.cad_morador form select{
+	height: 30px;
+	margin-left: 20px;
+}
+#desc_aviso{
+	font-size: 12px;
+	font-family: 'arial';
+}
+#aviso{
+	width: 600px;
+	padding: 7px;
+ 	background-color: #86c47b;
+ 	border: 1px solid green;
+ 	border-radius: 5px;
+}
+#checks{margin-left: 20px;}
+#checks p{
+	margin-left: 15px;
+	font-family: 'arial';
+	font-size: 17px;
+}
+#checks button{
+	background-color: #73c46b;
+	border-radius: 5px;
+	outline: none;
+	padding: 10px;
+	width: 10%;
+	left: 50%;
+	transform: translate(-120%);
+	position: relative;
+	border: none;
+	transition: 1s;
+}
+#checks button:hover{
+	background-color: green;
+	transition: 1s;
+}
+#php_notice{
+  text-align: center;
+  font-family: 'space';
+  font-size: 25px;
+  background-color: rgba(0,0,0,.3);
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 7px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  margin-top: -35px;
+  z-index: 1;
+  animation-name: down;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+@keyframes down{
+  0%{
+    margin-top: 0x;
+  }
+  25%{
+    margin-top: 70px;
+    color: white;
+}
